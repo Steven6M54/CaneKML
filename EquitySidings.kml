@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>~GE0002w32676.kmz</name>
+	<open>1</open>
 	<Schema name="Sidings" id="S_Sidings_SSSSDDDDSSI">
 		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
 </SimpleField>
@@ -26,34 +27,6 @@
 		<SimpleField type="int" name="SW_MEMBER"><displayName>&lt;b&gt;SW_MEMBER&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="style3">
 		<IconStyle>
 			<scale>0.6</scale>
@@ -13541,30 +13514,6 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
-			<name>Mill 3</name>
-			<styleUrl>#style30</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_Sidings_SSSSDDDDSSI">
-					<SimpleData name="Name">Mill 3</SimpleData>
-					<SimpleData name="Code">Mil03</SimpleData>
-					<SimpleData name="Old_Name">Leila</SimpleData>
-					<SimpleData name="LineName">Mill Line</SimpleData>
-					<SimpleData name="Distance_Far">15.4</SimpleData>
-					<SimpleData name="Distance_Mar">0</SimpleData>
-					<SimpleData name="Distance_Rac">0</SimpleData>
-					<SimpleData name="Distance_Ply">0</SimpleData>
-					<SimpleData name="Type">Rail</SimpleData>
-					<SimpleData name="Siding">Mil03</SimpleData>
-					<SimpleData name="SW_MEMBER">487</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<LineString>
-				<coordinates>
-					149.082439428777,-21.03312259683427,53.72383960802109 149.0831275036185,-21.03281884791451,53.72598413564264 149.0833214161705,-21.03268660405049,53.72672842536122 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
 			<name>Burstons 3</name>
 			<styleUrl>#style30</styleUrl>
 			<ExtendedData>
@@ -21264,85 +21213,6 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Mir Junction1</name>
-			<styleUrl>#style30</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_Sidings_SSSSDDDDSSI">
-					<SimpleData name="Name">Mir Junction1</SimpleData>
-					<SimpleData name="Code">MrJnc01</SimpleData>
-					<SimpleData name="Old_Name"></SimpleData>
-					<SimpleData name="LineName"></SimpleData>
-					<SimpleData name="Distance_Far">0</SimpleData>
-					<SimpleData name="Distance_Mar">0.2</SimpleData>
-					<SimpleData name="Distance_Rac">0</SimpleData>
-					<SimpleData name="Distance_Ply">0</SimpleData>
-					<SimpleData name="Type"></SimpleData>
-					<SimpleData name="Siding"></SimpleData>
-					<SimpleData name="SW_MEMBER">0</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<LineString>
-				<coordinates>
-					148.9376789623424,-21.14715431713208,53.12215463258326 148.9378607971516,-21.14710066456815,53.12264189496636 148.9380491374185,-21.14704386657456,53.12315027043223 148.9382047581958,-21.14700288714034,53.1235524751246 148.9383735662437,-21.14696175650878,53.12397880479692 148.9385577720878,-21.14692758425813,53.12441190332174 148.9387355145705,-21.14689980796254,53.12481420859694 148.9390168521196,-21.14688728190205,53.12535670492798 148.9392917759019,-21.14689235012214,53.12583491858095 148.9394567470962,-21.1468966911905,53.12611797824502 148.9399256600134,-21.14693873188025,53.1268334519118 148.9407009346826,-21.14702684121782,53.12796058133245 148.9416720218273,-21.14712922794062,53.12939628493041 148.9419257054274,-21.14715919171056,53.12976169120521 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Mir Junction2</name>
-			<styleUrl>#style30</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_Sidings_SSSSDDDDSSI">
-					<SimpleData name="Name">Mir Junction2</SimpleData>
-					<SimpleData name="Code">MrJnc02</SimpleData>
-					<SimpleData name="Old_Name"></SimpleData>
-					<SimpleData name="LineName"></SimpleData>
-					<SimpleData name="Distance_Far">0</SimpleData>
-					<SimpleData name="Distance_Mar">0.2</SimpleData>
-					<SimpleData name="Distance_Rac">0</SimpleData>
-					<SimpleData name="Distance_Ply">0</SimpleData>
-					<SimpleData name="Type"></SimpleData>
-					<SimpleData name="Siding"></SimpleData>
-					<SimpleData name="SW_MEMBER">0</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<LineString>
-				<coordinates>
-					148.9375210137999,-21.14723099747388,53.1216411702335 148.9376786606429,-21.14715332711367,53.12215705960989 148.9378888066463,-21.14706322403472,53.12280445918441 148.9380485604116,-21.14699952816116,53.12328221555799 148.9381910196306,-21.14696068642785,53.12365438975394 148.9384387108626,-21.14690013747586,53.12428053282201 148.9386273856251,-21.14686907501178,53.12471232097596 148.9388338095367,-21.146848104969,53.12514569237828 148.9390953589633,-21.14683896655783,53.12564251106231 148.9394539157559,-21.14684930791344,53.12625500932336 148.9399581401248,-21.14689717558299,53.12701638508588 148.9404338290007,-21.14694943315296,53.12771337106823 148.9411186416698,-21.14701798591343,53.12873679306357 148.941492960461,-21.14706318454217,53.12927301041782 148.9416495478154,-21.1470964303152,53.12945432122797 148.9418370732189,-21.14713970720164,53.12966106645763 148.9419257054274,-21.14715919171056,53.12976169120521 148.9422031861169,-21.14722004082609,53.13007717020809 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Conrad Loop</name>
-			<styleUrl>#style30</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_Sidings_SSSSDDDDSSI">
-					<SimpleData name="Name">Conrad Loop</SimpleData>
-					<SimpleData name="Code">Conrad</SimpleData>
-					<SimpleData name="Old_Name"></SimpleData>
-					<SimpleData name="LineName"></SimpleData>
-					<SimpleData name="Distance_Far">0</SimpleData>
-					<SimpleData name="Distance_Mar">0</SimpleData>
-					<SimpleData name="Distance_Rac">0</SimpleData>
-					<SimpleData name="Distance_Ply">0</SimpleData>
-					<SimpleData name="Type"></SimpleData>
-					<SimpleData name="Siding"></SimpleData>
-					<SimpleData name="SW_MEMBER">0</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<MultiGeometry>
-				<LineString>
-					<coordinates>
-						148.9508830029843,-21.14741109882701,53.14508038759233 148.9508409850428,-21.14758417562498,53.14448586851358 148.9507949364278,-21.14769209130132,53.14407955855131 148.9507314276456,-21.14779000263838,53.14367192611098 148.9506590348096,-21.1478638118941,53.14332063961774 148.9505734601756,-21.1479235032728,53.14298804756253 148.9504983754193,-21.14796085614977,53.1427412778139 148.9503950405977,-21.14798029094776,53.14249755907804 148.9502396877841,-21.14799002929533,53.14218957815319 148.9499716940022,-21.14796286226916,53.14179016556591 148.9475703948613,-21.14770024433689,53.13826877623796 148.9457059088051,-21.14751803247125,53.1354694068432 
-					</coordinates>
-				</LineString>
-				<LineString>
-					<coordinates>
-						148.9457059088051,-21.14751803247125,53.1354694068432 148.9454700721795,-21.14749094000458,53.13512744382024 148.9453555559511,-21.14747988336572,53.13495509885252 148.9452457105939,-21.14748737793244,53.13473549485207 
-					</coordinates>
-				</LineString>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark>
 			<name>Wagoora 10</name>
 			<styleUrl>#style30</styleUrl>
 			<ExtendedData>
@@ -21602,16 +21472,6 @@
 			<LineString>
 				<coordinates>
 					149.1167354823892,-21.18117863170474,53.34098361711949 149.1199064712248,-21.18160920436839,53.34536635223775 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Narpi to Ossa Line</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					148.8903855159458,-20.99313758903516,0 148.8888328420002,-20.98946718510247,0 148.8883816201528,-20.98796885029639,0 148.8876515318884,-20.98630056639509,0 148.8866586718492,-20.98479253439362,0 148.8862544271434,-20.98400807096808,0 148.8848030142862,-20.9827867876497,0 148.8836641050088,-20.98190448170503,0 148.8829124751882,-20.98062675477283,0 148.8808972413748,-20.97936819471281,0 148.8806961701653,-20.97716514908672,0 148.8809741452519,-20.97533389225417,0 148.8807061617091,-20.97281560873505,0 148.8802659614321,-20.97111911213295,0 148.8801702431157,-20.97014194189303,0 148.8787230975284,-20.96667622582493,0 148.8771196806421,-20.96242842239889,0 148.877013372582,-20.95977036056522,0 148.8759414234234,-20.95292545644154,0 148.8731128048161,-20.94900179329838,0 148.8692757282369,-20.94245309141742,0 148.8633866447848,-20.93577054182153,0 148.8624713399563,-20.93514372210638,0 148.8604643252513,-20.93505666414247,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
